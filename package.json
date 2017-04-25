@@ -1,0 +1,25 @@
+{
+  "name": "Scaffold-For-Angular",
+  "version": "1.0.0",
+  "description": "基于AngularJs的WebAPP开发脚手架",
+  "main": "",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:megeee/Scaffold-For-Angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megeee/Scaffold-For-Angular/issues"
+  },
+  "homepage": "https://github.com/megeee/Scaffold-For-Angular#readme"
+}
