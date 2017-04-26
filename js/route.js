@@ -1,17 +1,17 @@
 /* 
- * @页面路由及公共方法库
+ * @路由配置
  * @author: Jeff Guo
  * @https://github.com/megeee
  */
+
 var App = angular.module("App", ["ui.router"]);
 
 //路由配置
 App.config(["$stateProvider","$urlRouterProvider",function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/home');  
+    $urlRouterProvider.otherwise('/home');  //缺省跳到主页
     $stateProvider
  
-        //添加店铺
         .state("home", {
             url: "/home",
             templateUrl: "templates/home.html",
@@ -37,5 +37,3 @@ App.config(["$stateProvider","$urlRouterProvider",function ($stateProvider, $url
         })
 
 }]);
-
-
