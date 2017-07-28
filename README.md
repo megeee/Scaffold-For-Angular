@@ -1,4 +1,4 @@
-﻿## 基于AngularJs的单页应用脚手架
+## 基于AngularJs的单页应用脚手架
 
 适用于小型单页应用
 
@@ -13,7 +13,7 @@
 $ git clone git@github.com:megeee/Scaffold-For-Angular.git
 $ cd Scaffold-For-Angular
 $ npm install                
-$ gulp webserver
+$ gulp run
 ```
 运行网址：[http://127.0.0.1:8088/index.html](http://127.0.0.1:8088/index.html)
  

@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var webserver = require('gulp-webserver'); 
 
-gulp.task('webserver', function(){
+gulp.task('run', function(){
     gulp.src('./')
     .pipe(webserver({
         port: 8088,
